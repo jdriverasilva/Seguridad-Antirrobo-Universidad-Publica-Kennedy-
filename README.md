@@ -12,3 +12,7 @@ Desarrollar una base de datos para una aplicación móvil que, basada en la situ
 1. Diseñar una base de datos relacional que almacene información de los usuarios, incluyendo detalles como identificación, ubicación en tiempo real y contacto de emergencia.
 
 2. Implementar un sistema de registro y seguimiento de incidentes que guarde los datos de cada alerta enviada, como fecha, hora, ubicación y tipo de emergencia.
+
+3. Optimizar las consultas y procesos en la base de datos para garantizar la rápida recuperación de información relevante y el envío eficiente de alertas a las autoridades.
+
+4. Asegurar la integridad y protección de los datos almacenados en la base de datos mediante mecanismos de encriptación y gestión de accesos para mantener la privacidad de los usuarios.
