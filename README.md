@@ -16,3 +16,8 @@ Desarrollar una base de datos para una aplicación móvil que, basada en la situ
 3. Optimizar las consultas y procesos en la base de datos para garantizar la rápida recuperación de información relevante y el envío eficiente de alertas a las autoridades.
 
 4. Asegurar la integridad y protección de los datos almacenados en la base de datos mediante mecanismos de encriptación y gestión de accesos para mantener la privacidad de los usuarios.
+
+
+## Referencias
+https://claude.ai/new
+https://chatgpt.com/
