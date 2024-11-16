@@ -37,24 +37,38 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
 4. Los valores en las columnas deben ser atómicos (indivisibles).
 
 ## Tabla Usuario
+Se mantuvieron los datos básicos del usuario
+Se conservó la identificación como clave primaria
+Se removieron los datos de ubicación y dispositivo
 
 <div align="center">
   <img src="./images/fn1.png" width="80%">
 </div>
 
 ## Tabla Aplicacion
+Se creó para registrar el uso de la aplicación
+Se generó un id_app como clave primaria
+Se relaciona con usuarios mediante la identificación
+Se separó la fecha y hora en columnas distintas
 
 <div align="center">
   <img src="./images/fn1-1.png" width="80%">
 </div>
 
 ## Tabla Direccion
+Se creó una tabla específica para las direcciones
+Se generó un id_residencia como clave primaria
+Se separó la localidad_residencia de la dirección completa
+
 
 <div align="center">
   <img src="./images/fn1-2.png" width="80%">
 </div>
 
 ## Tabla Ubicaciones APP
+Se separaron las ubicaciones reportadas en la aplicación
+Se creó un id_ubicacion como clave primaria
+Se separó la localidad de la ubicación específica
 
 <div align="center">
   <img src="./images/fn1-3.png" width="80%">
@@ -62,6 +76,9 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
 
 
 ## Tabla Celulares
+Se separó la información de los dispositivos
+Se usa el IMEI como clave primaria
+Se separó la marca y referencia en columnas distintas
 
 <div align="center">
   <img src="./images/fn1-4.png" width="80%">
@@ -69,6 +86,9 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
 
 
 ## Tabla Identificacion Capitan
+Se separó la información de los capitanes
+Se creó id_capitan como clave primaria
+Se separó el nombre completo en nombre y apellido
 
 <div align="center">
   <img src="./images/fn1-5.png" width="80%">
@@ -76,11 +96,23 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
 
 
 ## Tabla CAI
+Se organizó la información de los CAI
+Se mantuvieron los campos relevantes
+Se usa id_Numero del CAI como clave primaria
 
 <div align="center">
   <img src="./images/fn1-6.png" width="80%">
 </div>
 
+### Cambios Específicos:
+
+Se eliminaron las redundancias de datos
+Se crearon claves primarias para cada tabla
+Se establecieron relaciones entre tablas mediante claves foráneas
+Se separaron los campos compuestos (como nombres completos)
+Se organizaron los datos en tablas temáticas
+Se aseguró que cada campo contenga un solo valor
+Se eliminaron las dependencias parciales
 
 ## Segunda Forma Normal (2NF):
 
