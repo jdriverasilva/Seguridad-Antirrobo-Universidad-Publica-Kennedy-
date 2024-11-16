@@ -8,16 +8,19 @@ reglas conocidas como formas normales (1FN, 2FN, 3F). Esto mejora la eficiencia,
 ## las tablas iniciales (CRUDAS) son las siguientes:
 
 ## 1.
+### Tabla de Usuarios
 <div align="center">
   <img src="./images/cruda1.png" width="80%">
 </div>
 
 ## 2.
+### Tabla de la Aplicacion
 <div align="center">
   <img src="./images/cruda2.png" width="80%">
 </div>
 
 ## 3.
+### Tabla de los CAIS
 <div align="center">
   <img src="./images/cruda3.png" width="80%">
 </div>
