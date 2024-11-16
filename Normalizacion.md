@@ -163,5 +163,39 @@ Se crearon identificadores únicos para cada entidad
 
 ## Tercera Forma Normal (3NF):
 
+## Tabla Usuario
+
+<div align="center">
+  <img src="./images/fn3.png" width="80%">
+</div>
+
+
+## Tabla 
+
+<div align="center">
+  <img src="./images/fn3-1.png" width="80%">
+</div>
+
+
+## Tabla 
+
+<div align="center">
+  <img src="./images/fn3-2.png" width="80%">
+</div>
+
+
+## Tabla 
+
+<div align="center">
+  <img src="./images/fn3-3.png" width="80%">
+</div>
+
+## Tabla 
+
+<div align="center">
+  <img src="./images/fn3-4.png" width="80%">
+</div>
+
+
 1. Debe estar en 2NF.
 2. No debe tener dependencias transitivas.
