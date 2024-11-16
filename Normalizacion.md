@@ -5,16 +5,19 @@ dividir una tabla cruda en varias tablas relacionadas ,más pequeñas, con datos
 reglas conocidas como formas normales (1FN, 2FN, 3F). Esto mejora la eficiencia, reduce errores y facilita el mantenimiento de la base de datos.
 
 
-## las tablas iniciales son las siguientes:
+## las tablas iniciales (CRUDAS) son las siguientes:
 
+## 1.
 <div align="center">
   <img src="./images/cruda1.png" width="80%">
 </div>
 
+## 2.
 <div align="center">
   <img src="./images/cruda2.png" width="80%">
 </div>
 
+## 3.
 <div align="center">
   <img src="./images/cruda3.png" width="80%">
 </div>
