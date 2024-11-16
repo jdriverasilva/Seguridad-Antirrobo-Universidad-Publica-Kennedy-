@@ -36,6 +36,12 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
   <img src="./images/fn1.png" width="80%">
 </div>
 
+## tabla aplicacion
+
+<div align="center">
+  <img src="./images/fn1-1.png" width="80%">
+</div>
+
 
 ## Segunda Forma Normal (2NF):
 
