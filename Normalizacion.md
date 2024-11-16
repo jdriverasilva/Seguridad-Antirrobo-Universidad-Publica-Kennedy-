@@ -109,6 +109,17 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
   <img src="./images/fn2-3.png" width="80%">
 </div>
 
+## Tabla Aplicacion
+
+<div align="center">
+  <img src="./images/fn2-4.png" width="80%">
+</div>
+
+## Tabla Ubicaciones Aplicacion
+
+<div align="center">
+  <img src="./images/fn2-5.png" width="80%">
+</div>
 
 
 
