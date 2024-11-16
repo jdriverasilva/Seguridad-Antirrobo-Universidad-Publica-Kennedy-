@@ -4,6 +4,10 @@ Es un proceso sistemático utilizado en base de datos relacionales para organiza
 dividir una tabla cruda en varias tablas relacionadas ,más pequeñas, con datos independientes y que muestren un propósito claro. El proceso consiste en aplicar 
 reglas conocidas como formas normales (1FN, 2FN, 3F). Esto mejora la eficiencia, reduce errores y facilita el mantenimiento de la base de datos.
 
+<div align="center">
+  <img src="./cruda1.png" width=80%>
+</div>
+
 ## La Primera Forma Normal (1FN):
 
 Es una regla fundamental en el diseño de bases de datos relacionales que establece los siguientes requisitos:
