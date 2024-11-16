@@ -34,9 +34,13 @@ Al final, lo que se busca con esta propuesta es más que un sistema tecnológico
 
 ## Base de datos normalizada 
 
-[Normalizacion](./Normalizacion.md)              
+[Normalizacion](./Normalizacion.md) 
+
+Breve paso a paso de la realizacion de la normalizacion y apoyo de imagenes, las cuales muestra la manera que realizamos la primera, segunda, tercera forma normal.
 
 [Tabla Normalizada](./tabla_normalizacion_seguridad_antirrobo.xlsx)
+
+Adjunto encontraras un documento excel en el cual se encuentra las tablar normalizas de acuerdo a lo establecido a los requerimientos dados
 
 ## Diagrama EER
 
