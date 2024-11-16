@@ -84,6 +84,35 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
 1. Primero debe estar en 1NF (tener una clave primaria y valores atómicos).
 2. No debe tener dependencias parciales.
 
+## Tabla Usuario
+
+<div align="center">
+  <img src="./images/fn2.png" width="80%">
+</div>
+
+## Tabla Genero
+
+<div align="center">
+  <img src="./images/fn2-1.png" width="80%">
+</div>
+
+
+## Tabla Estado civil
+
+<div align="center">
+  <img src="./images/fn2-2.png" width="80%">
+</div>
+
+## Tabla Direccion
+
+<div align="center">
+  <img src="./images/fn2-3.png" width="80%">
+</div>
+
+
+
+
+
 ## Tercera Forma Normal (3NF):
 
 1. Debe estar en 2NF.
