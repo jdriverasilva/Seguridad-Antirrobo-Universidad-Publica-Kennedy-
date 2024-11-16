@@ -33,7 +33,7 @@ Al final, lo que se busca con esta propuesta es más que un sistema tecnológico
 
 
 ## Base de datos normalizada 
-[Tabla Normalizada](./tabla_normalizacion-seguridad_antirrobo.xlsx)
+[Tabla Normalizada](./tabla_normalizacion-seguridad_antirrobo)
 
 ## Referencias
 1.https://claude.ai/new
