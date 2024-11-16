@@ -120,6 +120,14 @@ Se eliminaron las dependencias parciales
 2. No debe tener dependencias parciales.
 
 ## Tabla Usuario
+Clave primaria: identificacion
+Se observa que los campos celular, email, nombre, apellido, nacimiento dependen directamente de identificacion
+Se han eliminado dependencias parciales al crear tablas separadas para:
+
+Género (se usa id_genero como FK)
+Estado civil (se usa id_civil como FK)
+Dirección (se usa id_residencia como FK)
+Celular (se usa imei como FK)
 
 <div align="center">
   <img src="./images/fn2.png" width="80%">
@@ -144,7 +152,12 @@ Se eliminaron las dependencias parciales
   <img src="./images/fn2-3.png" width="80%">
 </div>
 
+### Cambios Especificos:
 
+Se eliminaron dependencias parciales creando tablas específicas
+Se establecieron relaciones mediante claves foráneas
+Se centralizó información repetitiva (localidades, marcas, estados civiles)
+Se crearon identificadores únicos para cada entidad
 
 
 
