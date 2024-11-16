@@ -30,16 +30,49 @@ Es una regla fundamental en el diseño de bases de datos relacionales que establ
 3. Identificar cada registro con una clave primaria única.
 4. Los valores en las columnas deben ser atómicos (indivisibles).
 
-## tabla Usuario
+## Tabla Usuario
 
 <div align="center">
   <img src="./images/fn1.png" width="80%">
 </div>
 
-## tabla aplicacion
+## Tabla Aplicacion
 
 <div align="center">
   <img src="./images/fn1-1.png" width="80%">
+</div>
+
+## Tabla Direccion
+
+<div align="center">
+  <img src="./images/fn1-2.png" width="80%">
+</div>
+
+## Tabla Ubicaciones APP
+
+<div align="center">
+  <img src="./images/fn1-3.png" width="80%">
+</div>
+
+
+## Tabla Celulares
+
+<div align="center">
+  <img src="./images/fn1-4.png" width="80%">
+</div>
+
+
+## Tabla Identificacion Capitan
+
+<div align="center">
+  <img src="./images/fn1-5.png" width="80%">
+</div>
+
+
+## Tabla CAI
+
+<div align="center">
+  <img src="./images/fn1-6.png" width="80%">
 </div>
 
 
