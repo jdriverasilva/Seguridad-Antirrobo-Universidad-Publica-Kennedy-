@@ -196,6 +196,12 @@ Se crearon identificadores únicos para cada entidad
   <img src="./images/fn3-4.png" width="80%">
 </div>
 
+## Tabla 
+
+<div align="center">
+  <img src="./images/fn3-5.png" width="80%">
+</div>
+
 
 1. Debe estar en 2NF.
 2. No debe tener dependencias transitivas.
