@@ -38,6 +38,9 @@ Al final, lo que se busca con esta propuesta es más que un sistema tecnológico
 
 [Tabla Normalizada](./tabla_normalizacion_seguridad_antirrobo.xlsx)
 
+## Diagrama EER
+
+![EER](https://github.com/user-attachments/assets/9119ba63-f514-44a8-8573-9e5a21e70853)
 
 ## Referencias
 1.https://claude.ai/new
