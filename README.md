@@ -29,7 +29,11 @@ La seguridad de los estudiantes en las universidades de Bogotá se ha convertido
 
 Por eso, esta propuesta busca dar una respuesta práctica y accesible a este problema mediante una aplicación móvil que, con un simple comando usando las teclas de volumen, pueda enviar alertas inmediatas al Centro de Atención Inmediata (CAI) más cercano. La idea es que en un momento de peligro o emergencia, los estudiantes puedan pedir ayuda de manera rápida y discreta, facilitando que las autoridades lleguen lo antes posible.
 
-Al final, lo que se busca con esta propuesta es más que un sistema tecnológico: es brindar a los estudiantes una herramienta que les devuelva la confianza de moverse seguros, sabiendo que en caso de cualquier eventualidad, la ayuda estará a solo un clic de distancia. Porque la seguridad no debe ser un lujo, sino un derecho para todos. [nombre deel archivo](./Base_de_datos.csv)
+Al final, lo que se busca con esta propuesta es más que un sistema tecnológico: es brindar a los estudiantes una herramienta que les devuelva la confianza de moverse seguros, sabiendo que en caso de cualquier eventualidad, la ayuda estará a solo un clic de distancia. Porque la seguridad no debe ser un lujo, sino un derecho para todos. 
+
+
+## Base de datos normalizada 
+[Tabla Normalizada](./tabla_normalizacion-seguridad_antirrobo.xlsx)
 
 ## Referencias
 1.https://claude.ai/new
