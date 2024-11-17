@@ -44,6 +44,8 @@ Adjunto encontraras un documento excel en el cual se encuentra las tablar normal
 
 [Codigos SQL](./SQL)
 
+Adjunto encontraras la carpeta que contienen todos los codigos de las importaciones de las tablas en MySQL Workbench.
+
 ## Diagrama EER
 
 ![EER](https://github.com/user-attachments/assets/9119ba63-f514-44a8-8573-9e5a21e70853)
