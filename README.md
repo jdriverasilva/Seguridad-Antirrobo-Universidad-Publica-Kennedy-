@@ -42,6 +42,8 @@ Breve paso a paso de la realizacion de la normalizacion y apoyo de imagenes, las
 
 Adjunto encontraras un documento excel en el cual se encuentra las tablar normalizas de acuerdo a lo establecido a los requerimientos dados
 
+[Codigos SQL](./SQL)
+
 ## Diagrama EER
 
 ![EER](https://github.com/user-attachments/assets/9119ba63-f514-44a8-8573-9e5a21e70853)
