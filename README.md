@@ -50,6 +50,10 @@ Adjunto encontraras la carpeta que contienen todos los codigos de las importacio
 
 ![EER](https://github.com/user-attachments/assets/9119ba63-f514-44a8-8573-9e5a21e70853)
 
+## Diagrama ER
+
+![WhatsApp Image 2024-11-14 at 21 30 09](https://github.com/user-attachments/assets/1e8b72ff-c698-4e31-9e69-70f95d2bf2ab)
+
 ## Referencias
 1.https://claude.ai/new
 
