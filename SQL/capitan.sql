@@ -1,0 +1,21 @@
+/*
+-- Query: SELECT * FROM proyecto.capitan
+LIMIT 0, 1000
+
+-- Date: 2024-11-15 20:01
+*/
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (1,'Juan','Perez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (2,'Maria','Gomez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (3,'Luis','Rodriguez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (4,'Ana','Martinez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (5,'Carlos','Diaz','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (6,'Laura','Ramirez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (7,'Jose','Moreno','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (8,'Sofia','Castro','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (9,'Ricardo','Gomez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (10,'Valentina','Lopez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (11,'Andres','Vargas','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (12,'Camila','Rodriguez','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (13,'Felipe','Morales','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (14,'Julian','Rios','','','','','','','','');
+INSERT INTO `` (`Id_capitan`,`Nombre`,`Apellido`,`MyUnknownColumn`,`MyUnknownColumn_[0]`,`MyUnknownColumn_[1]`,`MyUnknownColumn_[2]`,`MyUnknownColumn_[3]`,`MyUnknownColumn_[4]`,`MyUnknownColumn_[5]`,`MyUnknownColumn_[6]`) VALUES (15,'Alejandro','Gonzales','','','','','','','','');
