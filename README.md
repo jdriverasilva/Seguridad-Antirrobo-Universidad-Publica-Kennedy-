@@ -1,14 +1,9 @@
 # Seguridad-Antirrobo-Universidades-Bogota.
 ## Descripción General:
 
-La seguridad en los entornos escolares enfrenta serios desafíos debido a fenómenos como el microtráfico, la violencia, el robo y el pandillismo, entre otros. Estos problemas han generado un ambiente de inseguridad que afecta directamente la tranquilidad y el bienestar de estudiantes y docentes. Uno de los temas más alarmantes es el aumento en el robo de dispositivos móviles, especialmente en áreas cercanas a los colegios, lo que ha llevado a muchas familias a preocuparse constantemente por la integridad de sus hijos.
+La seguridad en los entornos escolares enfrenta desafíos significativos como el microtráfico, la violencia, el robo de dispositivos móviles y el pandillismo, generando un clima de inseguridad que afecta el bienestar de estudiantes y docentes. En localidades como Suba, Kennedy y Engativá, el hurto ha alcanzado cifras alarmantes, con hasta 745 incidentes al año, impactando negativamente la estabilidad emocional, el desempeño académico y, en algunos casos, la continuidad educativa de los jóvenes.
 
-Según datos de la Secretaría de Seguridad, localidades como Suba, Kennedy, y Engativá lideran en casos de hurto, registrando cifras que oscilan entre los 372 y 745 incidentes al año. Esta situación no solo afecta la percepción de seguridad, sino también el desempeño académico y la estabilidad emocional de los estudiantes. Por ejemplo, el temor al robo o la violencia lleva a algunos jóvenes a faltar a clases, impactando sus calificaciones y, en casos extremos, su permanencia en el sistema educativo.
-
-Ante esta problemática, surge la propuesta de desarrollar una aplicación móvil que actúe como un puente directo entre los estudiantes y las autoridades. La idea es sencilla pero poderosa: con solo presionar un botón, los usuarios podrían enviar alertas inmediatas a la policía y a sus contactos de emergencia, utilizando tecnologías como la geolocalización para garantizar una respuesta rápida.
-
-Además de brindar seguridad, esta herramienta busca empoderar a la comunidad educativa, ofreciendo una solución accesible, sin costos adicionales, y que pueda adaptarse a diversos dispositivos y sistemas operativos. Este tipo de tecnología no solo previene delitos, sino que también genera confianza y tranquilidad en los estudiantes y sus familias, permitiéndoles enfocarse en su desarrollo académico y social
-
+Para abordar esta problemática, se propone una aplicación móvil que conecte a los estudiantes con las autoridades mediante alertas instantáneas activadas con un solo botón. Con geolocalización integrada, esta solución garantiza respuestas rápidas, previniendo delitos y promoviendo la confianza de las familias. Además, su accesibilidad y adaptabilidad a diversos dispositivos buscan fortalecer la seguridad y el desarrollo integral de la comunidad educativa.
 ## Objetivo Principal 
 
 Desarrollar una base de datos para una aplicación móvil que, basada en la situación y ubicación del usuario, envíe alertas en tiempo real a las autoridades competentes, específicamente a la Policía Nacional.
