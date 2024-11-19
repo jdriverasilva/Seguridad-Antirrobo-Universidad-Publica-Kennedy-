@@ -29,9 +29,8 @@ Al final, lo que se busca con esta propuesta es más que un sistema tecnológico
 
 ## Diseño y Modelado. 
 
-[Normalizacion](./Normalizacion.md) 
 
-Breve paso a paso de la realizacion de la normalizacion y apoyo de imagenes, las cuales muestra la manera que realizamos la primera, segunda, tercera forma normal.
+Breve paso a paso de la realizacion de la normalizacion y apoyo de imagenes, las cuales muestra la manera que realizamos la primera, segunda, tercera forma normal. Para mayor informacion pueden dar click acá [Normalizacion](./Normalizacion.md) 
 
 [Tabla Normalizada](./tabla_normalizacion_seguridad_antirrobo.xlsx)
 
