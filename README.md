@@ -45,6 +45,14 @@ Adjunto encontraras la carpeta que contienen todos los codigos de las importacio
 
 ![WhatsApp Image 2024-11-14 at 21 30 09](https://github.com/user-attachments/assets/1e8b72ff-c698-4e31-9e69-70f95d2bf2ab)
 
+## Conclusiones
+
+integración de tecnologías en la seguridad escolar: El proyecto demuestra un enfoque práctico para abordar problemas de inseguridad en entornos educativos mediante el uso de herramientas tecnológicas. La integración de funcionalidades como el uso de geolocalización y notificaciones instantáneas refuerza la capacidad de respuesta ante incidentes de robo o violencia.
+
+Enfoque comunitario y accesibilidad: La solución está diseñada pensando en la accesibilidad y el beneficio colectivo, ofreciendo una herramienta gratuita y compatible con diferentes dispositivos. Esto promueve la inclusión tecnológica y fomenta la participación activa de estudiantes, docentes y familias en la mejora de la seguridad escolar.
+
+Potencial para la expansión y mejora continua: Aunque el proyecto cubre necesidades específicas, su estructura permite futuras ampliaciones, como agregar análisis de datos de incidentes o funcionalidades adicionales para la comunicación con las autoridades. Esto lo convierte en una solución escalable que puede adaptarse a otros contextos o instituciones educativas.
+
 ## Referencias
 1.https://claude.ai/new
 
