@@ -4,6 +4,7 @@
 La seguridad en los entornos escolares enfrenta desafíos significativos como el microtráfico, la violencia, el robo de dispositivos móviles y el pandillismo, generando un clima de inseguridad que afecta el bienestar de estudiantes y docentes. En localidades como Suba, Kennedy y Engativá, el hurto ha alcanzado cifras alarmantes, con hasta 745 incidentes al año, impactando negativamente la estabilidad emocional, el desempeño académico y, en algunos casos, la continuidad educativa de los jóvenes.
 
 Para abordar esta problemática, se propone una aplicación móvil que conecte a los estudiantes con las autoridades mediante alertas instantáneas activadas con un solo botón. Con geolocalización integrada, esta solución garantiza respuestas rápidas, previniendo delitos y promoviendo la confianza de las familias. Además, su accesibilidad y adaptabilidad a diversos dispositivos buscan fortalecer la seguridad y el desarrollo integral de la comunidad educativa.
+
 ## Objetivo Principal 
 
 Desarrollar una base de datos para una aplicación móvil que, basada en la situación y ubicación del usuario, envíe alertas en tiempo real a las autoridades competentes, específicamente a la Policía Nacional.
