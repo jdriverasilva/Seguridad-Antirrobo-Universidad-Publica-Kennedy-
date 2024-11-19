@@ -27,7 +27,7 @@ Por eso, esta propuesta busca dar una respuesta práctica y accesible a este pro
 Al final, lo que se busca con esta propuesta es más que un sistema tecnológico: es brindar a los estudiantes una herramienta que les devuelva la confianza de moverse seguros, sabiendo que en caso de cualquier eventualidad, la ayuda estará a solo un clic de distancia. Porque la seguridad no debe ser un lujo, sino un derecho para todos. 
 
 
-## Base de datos normalizada 
+## Diseño y Modelado. 
 
 [Normalizacion](./Normalizacion.md) 
 
