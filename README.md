@@ -35,9 +35,7 @@ Breve paso a paso de la realizacion de la normalizacion y apoyo de imagenes, las
 
 Adjunto encontraras un documento excel en el cual se encuentra las tablar normalizas de acuerdo a lo establecido a los requerimientos dados. para mayor informacion descargar tabla dandole click en el enlace [Tabla Normalizada](./tabla_normalizacion_seguridad_antirrobo.xlsx)
 
-[Codigos SQL](./SQL)
-
-Adjunto encontraras la carpeta que contienen todos los codigos de las importaciones de las tablas en MySQL Workbench.
+Adjunto encontraras la carpeta que contienen todos los codigos de las importaciones de las tablas en MySQL Workbench.para descargar los codigos dirigirse a la carpeta. [Codigos SQL](./SQL)
 
 ## Diagrama EER
 
