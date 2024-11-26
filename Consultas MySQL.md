@@ -113,7 +113,7 @@ SELECT u.Nombre, u.Apellido, COUNT(a.id_app) AS Total_Apps
 FROM usuarios u
 JOIN aplicacion a ON u.Identificacion = a.Identificacion
 GROUP BY u.Identificacion
-HAVING COUNT(a.id_app) > 1;
+HAVING Total_Apps > 1;
 
 ```
 <div align="center">
@@ -173,7 +173,7 @@ FROM usuarios u
 JOIN residencia r ON u.id_residencia = r.id_residencia
 JOIN localidad l ON r.id_localidad = l.id_localidad
 JOIN cai ON l.id_localidad = cai.id_localidad
-WHERE l.Localidad = 'Usaquén';
+WHERE l.Localidad = 'Bosa';
 
 ```
 <div align="center">
