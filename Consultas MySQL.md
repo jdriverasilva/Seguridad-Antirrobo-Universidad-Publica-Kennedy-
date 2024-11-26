@@ -1,6 +1,6 @@
-### Consultas MySQL 
+## Consultas MySQL 
 
-## 1. Cantidad de usuarios por género y localidad.
+### 1. Cantidad de usuarios por género y localidad.
 
 **Álgebra Relacional:** 
 
@@ -21,7 +21,7 @@ GROUP BY g.Genero, l.Localidad;
   <img src="./images/consulta1.jpg" width=90%>
 </div>
 
-## 2. Usuarios con dispositivos de una marca específica.
+### 2. Usuarios con dispositivos de una marca específica.
 
 **Álgebra Relacional:** 
 
@@ -40,7 +40,7 @@ WHERE m.Marca = "Samsung";
   <img src="./images/consulta2.jpg" width=90%>
 </div>
 
-## 3. Cantidad de usuarios registrados en cada CAI.
+### 3. Cantidad de usuarios registrados en cada CAI.
 
 **Álgebra Relacional:** 
 
