@@ -102,10 +102,98 @@ ORDER BY Total_Usuarios DESC;
   <img src="./images/consulta5.jpg" width=90%>
 </div>
 
+### 6. Usuarios con más de un registro en la tabla aplicaciones
 
+**Álgebra Relacional:** 
+π u.Nombre,u.Apellido,COUNT(a.id_app)→Total_Apps(σ u.Identificacion=a.Identificacion(Usuarios×Aplicaciones))
 
+**SQL equivalente:**
+```sql
+SELECT u.Nombre, u.Apellido, COUNT(a.id_app) AS Total_Apps
+FROM usuarios u
+JOIN aplicacion a ON u.Identificacion = a.Identificacion
+GROUP BY u.Identificacion
+HAVING COUNT(a.id_app) > 1;
 
+```
+<div align="center">
+  <img src="./images/imag6.jpg" width=90%>
+</div>
+### 7. Top 5 de localidades con mayor cantidad de usuarios
 
+**Álgebra Relacional:** 
+π Localidad,COUNT(∗)→Cantidad_Usuarios(σ u.id_residencia=r.id_residencia&r.id_localidad=l.id_localidad(Usuarios×Residencia×Localidad))
 
+**SQL equivalente:**
+```sql
+SELECT l.Localidad, COUNT(*) AS Cantidad_Usuarios
+FROM usuarios u
+JOIN residencia r ON u.id_residencia = r.id_residencia
+JOIN localidad l ON r.id_localidad = l.id_localidad
+GROUP BY l.Localidad
+ORDER BY Cantidad_Usuarios DESC
+LIMIT 5;
 
+```
+<div align="center">
+  <img src="./images/imag7.jpg" width=90%>
+</div>
 
+### 8. CAIs con el mayor número de aplicaciones asociadas
+
+**Álgebra Relacional:** 
+
+π CAI,COUNT(app_cai.id_app)→Total_Apps(σ cai.id_CAI=app_cai.id_CAI(CAI×App_CAI))
+
+**SQL equivalente:**
+```sql
+SELECT cai.Nombre AS CAI, COUNT(app_cai.id_app) AS Total_Apps
+FROM cai
+JOIN app_cai ON cai.id_CAI = app_cai.id_CAI
+GROUP BY cai.Nombre
+ORDER BY Total_Apps DESC;
+
+```
+<div align="center">
+  <img src="./images/imag8.jpg" width=90%>
+</div>
+
+### 9. Usuarios que residen en una localidad específica con sus CAIs asignados
+
+**Álgebra Relacional:** 
+
+π u.Nombre,u.Apellido,l.Localidad,cai.Nombre(σ l.Localidad=′Usaqueˊn′(Usuarios×Residencia×Localidad×CAI))
+
+**SQL equivalente:**
+```sql
+SELECT u.Nombre, u.Apellido, l.Localidad, cai.Nombre AS CAI
+FROM usuarios u
+JOIN residencia r ON u.id_residencia = r.id_residencia
+JOIN localidad l ON r.id_localidad = l.id_localidad
+JOIN cai ON l.id_localidad = cai.id_localidad
+WHERE l.Localidad = 'Usaquén';
+
+```
+<div align="center">
+  <img src="./images/imag9.jpg" width=90%>
+</div>
+
+### 10. Usuarios asignados a un capitán específico
+
+**Álgebra Relacional:** 
+
+π u.Nombre,u.Apellido,cap.Nombre(σ cap.Nombre= ′JuanPerez ′(Usuarios×Residencia×CAI×Capitaˊn))
+
+**SQL equivalente:**
+```sql
+SELECT u.Nombre, u.Apellido, cap.Nombre AS Capitan
+FROM usuarios u
+JOIN residencia r ON u.id_residencia = r.id_residencia
+JOIN cai ON r.id_localidad = cai.id_localidad
+JOIN capitan cap ON cai.id_capitan = cap.id_capitan
+WHERE cap.Nombre LIKE '%Maria%';
+
+```
+<div align="center">
+  <img src="./images/imag10.jpg" width=90%>
+</div>
