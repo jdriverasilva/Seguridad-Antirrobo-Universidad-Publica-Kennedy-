@@ -119,9 +119,11 @@ HAVING COUNT(a.id_app) > 1;
 <div align="center">
   <img src="./images/imag6.jpg" width=90%>
 </div>
+
 ### 7. Top 5 de localidades con mayor cantidad de usuarios
 
 **Álgebra Relacional:** 
+
 π Localidad,COUNT(∗)→Cantidad_Usuarios(σ u.id_residencia=r.id_residencia&r.id_localidad=l.id_localidad(Usuarios×Residencia×Localidad))
 
 **SQL equivalente:**
