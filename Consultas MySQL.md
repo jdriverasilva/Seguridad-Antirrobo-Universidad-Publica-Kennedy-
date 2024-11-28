@@ -199,3 +199,96 @@ WHERE cap.Nombre LIKE '%Maria%';
 <div align="center">
   <img src="./images/imag10.jpg" width=90%>
 </div>
+
+### 11. Listar los nombres y correos electrónicos de todos los usuarios junto con la marca de su celular.
+
+**Álgebra Relacional:** 
+
+π Nombre,Email,Marca(σ usuarios.Imei=celular.Imei(usuarios⋈celular⋈marca))
+
+```sql
+SELECT usuarios.Nombre, usuarios.Email, marca.Marca
+FROM usuarios
+JOIN celular ON usuarios.Imei = celular.Imei![Captura de pantalla 2024-11-28 120551](https://github.com/user-attachments/assets/09c75150-a850-4884-be4e-163e5785ed63)
+
+JOIN marca ON celular.Id_marca = marca.Id_marca;
+```
+
+![Captura de pantalla 2024-11-28 120551](https://github.com/user-attachments/assets/56684ded-1f37-4f99-858b-1057f5b6ea90) 
+
+### 12. Obtener la dirección de residencia de los usuarios cuyo género sea "Femenino".
+
+**Álgebra Relacional:** 
+
+π Nombre,Direccion_Residencia(σGenero=′Femenino′(usuarios⋈genero⋈residencia))
+
+```sql
+SELECT usuarios.Nombre, residencia.Direccion_Residencia
+FROM usuarios
+JOIN genero ON usuarios.Id_genero = genero.Id_genero
+JOIN residencia ON usuarios.Id_residencia = residencia.Id_residencia
+WHERE genero.Genero = 'Femenino';
+```
+
+![Captura de pantalla 2024-11-28 121430](https://github.com/user-attachments/assets/ba8b926e-559b-4855-b89c-b03073d5736e)
+
+### 13. Determinar las marcas de celulares más comunes entre los usuarios.
+
+**Álgebra Relacional:** 
+
+π DESC (LIMIT 1)(γMarca,COUNT(Imei)(marca⋈celular))
+
+```sql
+SELECT marca.Marca, COUNT(celular.Imei) AS Total_Usuarios
+FROM marca
+JOIN celular ON marca.Id_marca = celular.Id_marca
+GROUP BY marca.Marca
+ORDER BY Total_Usuarios DESC
+LIMIT 1;
+SELECT marca.Marca, COUNT(celular.Imei) AS Total_Usuarios
+FROM marca
+JOIN celular ON marca.Id_marca = celular.Id_marca
+GROUP BY marca.Marca
+ORDER BY Total_Usuarios DESC
+LIMIT 1;
+```
+
+![Captura de pantalla 2024-11-28 121531](https://github.com/user-attachments/assets/121f5471-edd5-4e53-8149-a3aaa7444c31)
+
+### 14. Promedio de robos por localidad
+
+**Álgebra Relacional:** 
+
+π Localidad,AVG(Total_Aplicaciones)(subquery⋈localidad)
+
+```sql
+SELECT localidad.Localidad, AVG(Total_Aplicacion) AS Promedio_Aplicacion
+FROM (
+  SELECT aplicacion.Id_ubicacion, COUNT(aplicacion.Id_app) AS Total_Aplicacion
+  FROM aplicacion
+  GROUP BY aplicacion.Id_ubicacion
+) AS subquery
+JOIN localidad ON subquery.Id_ubicacion = localidad.Id_localidad
+GROUP BY localidad.Localidad;
+```
+
+![Captura de pantalla 2024-11-28 122010](https://github.com/user-attachments/assets/cdeeb06c-7f2f-4219-8024-00f252a9868e)
+
+### 15. Obtener los IMEI de los celulares de usuarios que viven en una localidad específica.
+
+**Álgebra Relacional:** 
+
+π Nombre,Imei,Localidad(σLocalidad=′ˊn′(usuarios⋈celulabosar⋈residencia⋈localidad))
+
+```sql
+SELECT usuarios.Nombre, celular.Imei, localidad.Localidad
+FROM usuarios
+JOIN celular ON usuarios.Imei = celular.Imei
+JOIN residencia ON usuarios.Id_residencia = residencia.Id_residencia
+JOIN localidad ON residencia.Id_localidad = localidad.Id_localidad
+WHERE localidad.Localidad = 'bosa';
+```
+
+![Captura de pantalla 2024-11-28 122033](https://github.com/user-attachments/assets/df2c2a4c-faaf-4cf5-a8f1-f0633402145c)
+
+
