@@ -305,5 +305,5 @@ WHERE aplicacion.Fecha BETWEEN '01-01-2024' AND '30-04-2024';
 ```
 
 <div align="center">
-  <img src="./images/img16.jpg" width=90%>
+  <img src="./images/img16.jpeg" width=90%>
 </div>
