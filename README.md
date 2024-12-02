@@ -43,7 +43,8 @@ Adjunto encontraras la carpeta que contienen todos los codigos de las importacio
 
 ## Diagrama ER
 
-![WhatsApp Image 2024-11-14 at 21 30 09](https://github.com/user-attachments/assets/1e8b72ff-c698-4e31-9e69-70f95d2bf2ab)
+![Diagrama en blanco](https://github.com/user-attachments/assets/8ec68fa9-3930-4fad-9e36-0dc952aea2a9)
+
 
 ## Conclusiones
 
