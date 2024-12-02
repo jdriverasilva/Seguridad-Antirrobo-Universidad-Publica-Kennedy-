@@ -43,8 +43,7 @@ Adjunto encontraras la carpeta que contienen todos los codigos de las importacio
 
 ## Diagrama ER
 
-![Diagrama en blanco](https://github.com/user-attachments/assets/8ec68fa9-3930-4fad-9e36-0dc952aea2a9)
-
+![Diagrama en blanco (1)](https://github.com/user-attachments/assets/c5afcaa4-91d0-460b-881f-042babe6ae6b)
 
 ## Conclusiones
 
