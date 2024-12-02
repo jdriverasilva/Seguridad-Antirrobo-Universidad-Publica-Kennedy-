@@ -291,4 +291,19 @@ WHERE localidad.Localidad = 'bosa';
 
 ![Captura de pantalla 2024-11-28 122033](https://github.com/user-attachments/assets/df2c2a4c-faaf-4cf5-a8f1-f0633402145c)
 
+### 16. listar los robos ocurridos en un rango de fechas
 
+**Álgebra Relacional:**
+
+π Id_app,Fecha,Nombre(σ Fecha∈[01-01-2024,30-04-2024](aplicaciones⋈usuarios))
+
+```sql
+SELECT aplicacion.Id_app, aplicacion.Fecha, usuarios.Nombre
+FROM aplicacion
+JOIN usuarios ON aplicacion.Identificacion = usuarios.Identificacion
+WHERE aplicacion.Fecha BETWEEN '01-01-2024' AND '30-04-2024';
+```
+
+<div align="center">
+  <img src="./images/img16.jpg" width=90%>
+</div>
