@@ -307,3 +307,80 @@ WHERE aplicacion.Fecha BETWEEN '01-01-2024' AND '30-04-2024';
 <div align="center">
   <img src="./images/img16.jpeg" width=90%>
 </div>
+
+### 17. listar el nombre del capitan donde este relacionado el caso de hurto de un usuario
+
+**Álgebra Relacional:**
+
+π Nombre,Apellido,Nombre_CAI(σ Nombre=′Luisˊ′(capitan⋈cai⋈localidad⋈aplicaciones⋈usuarios))
+
+```sql
+SELECT DISTINCT capitan.Nombre, capitan.Apellido, cai.Nombre AS Nombre_CAI
+FROM capitan
+JOIN cai ON capitan.Id_capitan = cai.Id_capitan
+JOIN localidad ON cai.Id_localidad = localidad.Id_localidad
+JOIN aplicacion ON localidad.Id_localidad = aplicacion.Id_ubicacion
+JOIN usuarios ON aplicacion.Identificacion = usuarios.Identificacion
+WHERE usuarios.Nombre = 'Luis';
+```
+
+<div align="center">
+  <img src="./images/img17.jpeg" width=90%>
+</div>
+
+### 18. Listar los nombres de usuarios casados junto con su localidad.
+
+**Álgebra Relacional:**
+
+π Nombre,Localidad(σ Estado_civil= ′Casado ′(usuarios⋈civil⋈residencia⋈localidad))
+
+```sql
+SELECT usuarios.Nombre, localidad.Localidad
+FROM usuarios
+JOIN civil ON usuarios.Id_civil = civil.Id_civil
+JOIN residencia ON usuarios.Id_residencia = residencia.Id_residencia
+JOIN localidad ON residencia.Id_localidad = localidad.Id_localidad
+WHERE civil.Estado_civil = 'Casad@';
+```
+
+<div align="center">
+  <img src="./images/img18.jpeg" width=90%>
+</div>
+
+### 19. Encontrar que cai tines mas policias en promedio que los demas
+
+**Álgebra Relacional:**
+
+σPolicas>AVG(Policas)(cai)
+
+```sql
+WITH PromedioPolicias AS (
+  SELECT AVG(cai.Policias) AS Promedio
+  FROM cai
+)
+SELECT cai.Nombre, cai.Policias
+FROM cai
+WHERE cai.Policias > (SELECT Promedio FROM PromedioPolicias);
+```
+
+<div align="center">
+  <img src="./images/img19.jpeg" width=90%>
+</div>
+
+### 20. Determinar las localidades que no tienen usuarios con celulares registrados.
+**Álgebra Relacional:**
+
+πLocalidad(σcelular.Imei IS NULL(localidad LEFT JOIN (residencia⋈usuarios⋈celular)))
+
+```sql
+SELECT localidad.Localidad
+FROM localidad
+LEFT JOIN residencia ON localidad.Id_localidad = residencia.Id_localidad
+LEFT JOIN usuarios ON residencia.Id_residencia = usuarios.Id_residencia
+LEFT JOIN celular ON usuarios.Imei = celular.Imei
+WHERE celular.Imei IS NULL;
+```
+
+<div align="center">
+  <img src="./images/img20.jpeg" width=90%>
+</div>
